@@ -15,4 +15,8 @@ public class Parallelogram {
         luas = alas*tinggi;
         return luas;
     }
+    
+    void cetakLuas(){
+        System.out.println("Luas adalah : "+hitungLuas());
+    }
 }
