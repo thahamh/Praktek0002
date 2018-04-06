@@ -6,5 +6,6 @@ public class ParallelogramAksi {
         r1.tinggi = 5;
         
         r1.cetakInfo();
+        System.out.println("Luas Parallelogram = "+r1.hitungLuas());
     }
 }
