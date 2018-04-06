@@ -7,6 +7,11 @@ public class Parallelogram {
         alas = 8;
         tinggi=4;
     }
+
+    public Parallelogram(double alas, double tinggi) {
+        this.alas = alas;
+        this.tinggi = tinggi;
+    }
     
     void cetakInfo(){
         System.out.println("+-----------------+");
