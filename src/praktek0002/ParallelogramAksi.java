@@ -4,5 +4,7 @@ public class ParallelogramAksi {
         Parallelogram r1 = new Parallelogram();
         r1.alas = 13;
         r1.tinggi = 5;
+        
+        r1.cetakInfo();
     }
 }
