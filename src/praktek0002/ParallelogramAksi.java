@@ -12,7 +12,7 @@ public class ParallelogramAksi {
         Parallelogram r2 = new Parallelogram();
         r2.cetakInfo();
         
-        Parallelogram r3 = new Parallelogram();
+        Parallelogram r3 = new Parallelogram(80,40);
         r3.cetakInfo();
     }
 }
