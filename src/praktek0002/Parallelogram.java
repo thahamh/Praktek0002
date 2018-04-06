@@ -2,6 +2,11 @@ package praktek0002;
 public class Parallelogram {
     double alas;
     double tinggi;
+
+    public Parallelogram() {
+        alas = 8;
+        tinggi=4;
+    }
     
     void cetakInfo(){
         System.out.println("+-----------------+");
@@ -17,6 +22,6 @@ public class Parallelogram {
     }
     
     void cetakLuas(){
-        System.out.println("Luas adalah : "+hitungLuas());
+        System.out.println("Luasnya adalah : "+hitungLuas());
     }
 }
